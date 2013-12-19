@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fruit" >
+
+    <EditText
+        android:id="@+id/distributor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/enter_distributor" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="@string/distributor"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/distributor"
+        android:layout_alignRight="@+id/itemNameLabel"
+        android:layout_marginBottom="24dp"
+        android:text="@string/price"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/itemNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/itemNameLabel"
+        android:layout_alignBottom="@+id/itemNameLabel"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:hint="@string/enter_item"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/itemNameLabel"
+        android:text="@string/headingInsert"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:hint="@string/enter_price"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/Distributor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/price"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_marginBottom="21dp"
+        android:text="@string/quantity"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Distributor"
+        android:layout_alignBottom="@+id/Distributor"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:hint="@string/enter_quantity"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/itemNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/quantity"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="21dp"
+        android:text="@string/itemname"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/order"
+        android:layout_alignBottom="@+id/order"
+        android:layout_toLeftOf="@+id/distributor"
+        android:text="@string/back" />
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/distributor"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="@string/insert" />
+
+</RelativeLayout>

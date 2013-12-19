@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GroceryKart</string>
+    <string name="hello_world">GROCERY KART</string>
+    <string name="grocery_desc">Image Of Grocery</string>
+    <string name="menu_settings">Settings</string>
+	<string name="insert">INSERT</string>
+	<string name="delete">DELETE</string>
+	<string name="update">SELL</string>
+	<string name="display">DISPLAY</string>
+	<string name="order">ORDER</string>
+	<string name="itemname">NAME</string>
+	<string name="quantity">QUANTITY</string>
+	<string name="itemid">ID</string>
+	<string name="headingInsert">ENTER ITEM TO INSERT</string>
+	<string name="back">BACK</string>
+	<string name="updateScreen">ENTER ITEM TO BE SOLD</string>
+	<string name="order_screen">ENTER ITEMS TO ORDER</string>
+	<string name="delete_screen_heading">SELECT ITEM TO DELETE</string>
+	<string name="distributor">DISTRIBUTOR</string>
+	<string name="price">PRICE</string>
+	<string name="name">NAME</string>
+	<string name="enter_item">Enter item</string>
+	<string name="enter_quantity">Enter quantity</string>
+	<string name="enter_price">Enter price</string>
+	<string name="enter_distributor">Enter distributor</string>
+	<string name="exit">Exit</string>
+</resources>
